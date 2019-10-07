@@ -1,0 +1,20 @@
+body{
+	background: black;
+}
+
+.gamebox{
+	color:white;
+	height: 20vh;
+	width: 20vh;
+	border-radius: 25px;
+	/*border: 1px solid white;*/
+}
+
+nav{
+	font-weight: 800;
+}
+
+.easy-hide{
+	display: none;
+}
+

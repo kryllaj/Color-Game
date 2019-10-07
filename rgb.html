@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="rgb.css">
+    <title>Color Game</title>
+  </head>
+  <body>
+    <section class="container-fluid text-center bg-primary text-white py-3" id="header">
+      <h3>THE GREAT</h3>
+      <h1 class="display-4">RGB(<span class="colornumber">0</span>, <span class="colornumber">0</span>, <span class="colornumber">0</span>)</h1>
+      <h3>GUESSING GAME</h3>
+    </section>
+
+    <nav class="navbar bg-light p-0">
+      <div class="container">
+        <ul class="navbar-nav mr-auto text-primary">
+          <li class="nav-item ml-5 px-4" id="newcolors">NEW COLORS</li>
+        </ul>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ml-5 pl-5" id="disclaimer"></li>
+        </ul>
+        <ul class="navbar-nav navbar-right text-primary">
+          <li class="nav-item px-4" id="naveasy">EASY</li>
+        </ul>
+       <ul class="navbar-nav navbar-right mr-5 text-primary">
+          <li class="nav-item px-4" id="navhard">HARD</li>
+        </ul>
+      </div>
+    </nav>
++
+    <section class="container">
+      <div class="row  justify-content-center mt-3">
+        <div id="sq1" class="col-sm-2 gamebox m-3"></div>
+        <div id="sq2" class="col-sm-2 gamebox m-3"></div>
+        <div id="sq3" class="col-sm-2 gamebox m-3"></div>
+      </div>
+       <div class="row justify-content-center">
+        <div id="sq4" class="col-sm-2 gamebox m-3 hard"></div>
+        <div id="sq5" class="col-sm-2 gamebox m-3 hard"></div>
+        <div id="sq6" class="col-sm-2 gamebox m-3 hard"></div>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="rgb.js"></script>
+  </body>
+</html>
